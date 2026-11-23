@@ -1,1 +1,37 @@
+#include <stdio.h>
 
+int main() {
+
+int var [tamanho];
+    var[0]=111;
+    var[1]=7;
+    var[2]=41;
+    var[3]=91;
+  int  aux1,aux2,contador,tamanho;
+    tamanho=4;
+    contador=0;
+    while(contador!=tamanho)
+    aux1=var[contador];
+    aux2=var[contador+1];
+    if(aux1>aux2)
+    var[contador]=aux2
+    var[contador+1]=aux1
+    contador++;
+     
+    
+    
+    
+    
+    
+    
+
+    
+
+
+
+
+
+
+
+    
+}
